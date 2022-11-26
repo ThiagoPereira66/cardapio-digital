@@ -128,7 +128,7 @@ li:active{
 }
 
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 450px) {
     .section{
         height: 79vh;        
         margin-top: 10%;
