@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clados Do Casal</title>
+</head>
+<body>
+    <img src="./img/logo.png" class="principal">
+    <section class="menu">
+        <div class="produtos" >
+            <ol id="botao-cardapio">
+                <li><img class="img-nav" src="./img/vaca tolada.jpg" alt="vaca tolada">Vaca Tolada</li>
+                <li><img class="img-nav" src="./img/caldo de cabotia.jpg">cabotia</li>
+                <li><img class="img-nav" src="./img/caldo de frango.jpg">Frango</li>
+                <li><img class="img-nav" src="./img/suculentos-pedacos-de.jpg">Caldo de Mandioca</li>
+                <li><img class="img-nav" src="./img/caldo de feijao.jpg">Caldo de Feijão</li>
+            </ol>
+    </section>
+    <section class="card">
+        <div class="section">
+            <img src="./img/logo-2.png" class="logo">
+            <div class="escrições">
+                <p>Olá, seja muito bem vindo</p>
+                <h1>Caldos Do Casal</h1>
+                
+                <button  onclick="chameOMenu()">Cardápio Digital</button>
+                <div class="contato">
+                    <a href="https://www.ifood.com.br/delivery/uberlandia-mg/caldos-do-casal-mansour/614c22a0-790c-452b-81cd-869853336d21"><img src="./img/ifood.png" class="chame"></a>
+                    <a href="https://www.instagram.com/caldosdocasal/"><img src="./img/instagram.png" alt="instagran" class="chame"></a>
+                    <a><img src="./img/whatsapp.png" alt="whatsapp" class="chame"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+
+<script>
+    let menu = document.getElementById("botao-cardapio")
+
+    function chameOMenu(){
+        menu.className = "mostrar-menu"
+    }
+</script>
+</html>

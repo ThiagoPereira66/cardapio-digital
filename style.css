@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik Glitch', cursive;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+.principal{
+    position:fixed;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.section{    
+    width: 80vw;
+    height: 60vh;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 1px 20px 5px black;
+    bottom: 549px;   
+}
+.chame{    
+    position: relative;
+    width: 37px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.chame:hover{
+    width: 45px;
+    transition: 1s;
+}
+
+.escrições{
+    position: relative;   
+    top: 61px;
+}
+button{
+    width: 87%;
+    height: 58px;
+    border: none;
+    border-radius: 28px;
+    font-size: 26px;
+    background: black;
+    color: white;
+    box-shadow: -1px 2px 20px 5px black;
+    cursor: pointer;
+    
+}
+button:hover{
+    box-shadow: -1px 2px 20px 5px rgba(255, 0, 0, 0.342);
+}
+button:active{
+    box-shadow: none;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 23px;
+}
+p{
+    margin-bottom: 15px;
+    color: #ff5400;
+}
+.img-nav{
+    position: relative;
+    width: 50%;
+    border-radius: 29%;
+    border: solid white;
+}
+.produtos{
+    position: relative;    
+    width: 95vw;
+    height: 95vh;
+    
+    
+    
+}
+ol{
+    opacity: 0;
+    transition: opacity 1s linear;    
+    margin-left: 7%;
+    background: white;
+    position: absolute;
+    width: 91%;
+    height: 100vh;
+    box-shadow: 0px -1px 13px 0px black;
+}
+.mostrar-menu{    
+    opacity: 1;
+    z-index: 4;   /* para posicionar o elemento a frente, quanto maior o numero mais a frente ele ficara*/
+ 
+ }
+li{
+    color: black;
+    background-color: rgb(224 212 212);
+    box-shadow: 0 3px 16px;
+    cursor: pointer;
+    top: 18px;
+    position: relative;
+    width: 90%;
+    left: 17px;
+    margin-bottom: 7px;
+    list-style: none;
+}
+li:hover{
+    border: solid 2px rgb(243, 242, 242,.5);
+    box-shadow: -1px 2px 20px 5px black;
+}
+li:active{
+    background-color: rgb(182, 66, 66 ) ;
+}
+.card{
+    height: 15px;
+}
+.logo{
+    bottom: 93px;
+    width: 184px;
+    border-radius: 47px;
+    border: solid 1px white;
+    position: relative;
+    box-shadow: 0px 7px 14px;
+}
+
+
+@media screen and (min-width: 300px) {
+    .section{
+        height: 79vh;        
+        margin-top: 10%;
+    }
+    ol{
+        width: 70%;
+        margin-left: 18%;
+        height: 75vh;
+        top: 120px;
+        
+    }
+    li{
+        width: 63%;
+        justify-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        top: 6%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+@media screen and (min-width: 900px){
+    .section{
+    bottom: 632px;
+    margin-top: 10%;
+    }
+}
+
