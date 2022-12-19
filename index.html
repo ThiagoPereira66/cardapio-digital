@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,113 @@
     <link rel="stylesheet" href="style.css">
     <title>Clados Do Casal</title>
 </head>
+
 <body>
     <img src="./img/logo.png" class="principal">
+
     <section class="menu">
-        <div class="produtos" >
-            <ol id="botao-cardapio">
-                <li><img class="img-nav" src="./img/vaca tolada.jpg" alt="vaca tolada">Vaca Tolada</li>
-                <li><img class="img-nav" src="./img/caldo de cabotia.jpg">cabotia</li>
-                <li><img class="img-nav" src="./img/caldo de frango.jpg">Frango</li>
-                <li><img class="img-nav" src="./img/suculentos-pedacos-de.jpg">Caldo de Mandioca</li>
-                <li><img class="img-nav" src="./img/caldo de feijao.jpg">Caldo de Feijão</li>
-            </ol>
+
+        <div class="produtos">
+
+            <ul id="botao-cardapio">
+                
+
+                <div class="caldo">
+                    <img class="img-nav" src="./img/vaca tolada.jpg" alt="vaca atolada" id="img">
+                    <h2 id="nome-caldo">Vaca Atolada</h2>
+
+                    <div class="ingredientes" id="ingredientes">
+
+                        <h3><i>Ingredientes</i></h3>
+                        <li>costela de boi</li>
+                        <li> lingüiça calabresa</li>
+                        <li> cebola granulada</li>
+                        <li>tomate picado</li>
+                        <li>alho granulado</li>
+
+                    </div>
+                    
+                    
+                </div>
+                <select id="selecionar-caldo">
+
+                    <option>Vaca Atolada</option>
+                    <option>Caldo de Feijão</option>
+                    <option >Frango</option>
+                    <option>Mandioca</option>
+                    <option>Cabotia</option>
+
+                </select>
+
+                <select id="selecionar">
+
+                    <option>Coca Cola</option>
+                    <option>Guarana</option>
+                    <option>Pepsi</option>
+                    <option>Mineiro</option>
+                    <option>Fanta</option>
+
+                </select>
+
+
+                <!-- <div class="caldo">
+                    <img class="img-nav" src="./img/caldo de cabotia.jpg" alt="caldo de cabotia">
+                    <h2>Caldo de Cabotia</h2>
+                    <div class="ingredientes">
+                        <h3><i>Ingredientes</i></h3>
+                        <li>abóbora cabotiã</li>
+                        <li>coxão mole </li>
+                        <li>alho</li>
+                        <li>cebola</li>
+                        <li>Água</li>
+                        <li>Azeite</li>
+                        <li>Salsinha picada</li>
+                        <li>Cebolinha picada</li>
+                        <li>Sal</li>
+
+                    </div>
+                    <div class="caldo">
+                        <img class="img-nav" src="./img/caldo de frango.jpg" alt="caldo de frango">
+                        <h2>Caldo de Frango</h2>
+                        <div class="ingredientes">
+                            <h3><i>Ingredientes</i></h3>
+                            <li>mandioca</li>
+                            <li>tomates</li>
+                            <li>cebolas</li>
+                            <li>peito de frango</li>
+                            <li>cheiro-verde</li>
+                            <li>extrato de tomate</li>
+                            <li>milho verde</li>
+
+                        </div>
+                        <div class="caldo">
+                            <img class="img-nav" src="./img/suculentos-pedacos-de.jpg" alt="caldo de mandioca">
+                            <h2>Caldo de Mandioca</h2>
+                            <div class="ingredientes">
+                                <h3><i>Ingredientes</i></h3>
+                                <li>mandioca amarela</li>
+                                <li>calabresa</li>
+                                <li>bacon picados</li>
+                                <li>cebola grande</li>
+                                <li>tomates</li>
+                                <li>Cebolinha</li>
+
+                            </div>
+                            <div class="caldo">
+                                <img class="img-nav" src="./img/caldo de feijao.jpg" alt="caldo de feijao">
+                                <h2>Caldo de Feijao</h2>
+                                <div class="ingredientes">
+                                    <h3><i>Ingredientes</i></h3>
+                                    <li>feijão tipo carioquinha</li>
+                                    <li>linguiça calabresa</li>
+                                    <li>bacon</li>
+                                    <li>cebola média</li>
+                                    <li>cebolinha picadas</li>
+                                    <li>salsinha picadas</li>
+                                    <li>alhos picados</li>
+
+                                </div> -->
+            </ul>
     </section>
     <section class="card">
         <div class="section">
@@ -25,18 +122,22 @@
             <div class="escrições">
                 <p>Olá, seja muito bem vindo</p>
                 <h1>Caldos Do Casal</h1>
-                
-                <button  onclick="chameOMenu()">Cardápio Digital</button>
+
+                <button onclick="chameOMenu()">Cardápio Digital</button>
                 <div class="contato">
-                    <a href="https://www.ifood.com.br/delivery/uberlandia-mg/caldos-do-casal-mansour/614c22a0-790c-452b-81cd-869853336d21"><img src="./img/ifood.png" class="chame"></a>
-                    <a href="https://www.instagram.com/caldosdocasal/"><img src="./img/instagram.png" alt="instagran" class="chame"></a>
+                    <a
+                        href="https://www.ifood.com.br/delivery/uberlandia-mg/caldos-do-casal-mansour/614c22a0-790c-452b-81cd-869853336d21"><img
+                            src="./img/ifood.png" class="chame"></a>
+                    <a href="https://www.instagram.com/caldosdocasal/"><img src="./img/instagram.png" alt="instagran"
+                            class="chame"></a>
                     <a><img src="./img/whatsapp.png" alt="whatsapp" class="chame"></a>
                 </div>
             </div>
         </div>
     </section>
-    
+
 </body>
 
 <script src="./script.js"></script>
+
 </html>

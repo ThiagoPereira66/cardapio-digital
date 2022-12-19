@@ -13,6 +13,7 @@
     height: 100vh;
     
 }
+
 .section{    
     width: 80vw;
     height: 60vh;
@@ -26,12 +27,14 @@
     box-shadow: 0px 1px 20px 5px black;
     bottom: 549px;   
 }
+
 .chame{    
     position: relative;
     width: 37px;
     margin-left: 15px;
     margin-top: 30px;
 }
+
 .chame:hover{
     width: 45px;
     transition: 1s;
@@ -41,6 +44,7 @@
     position: relative;   
     top: 61px;
 }
+
 button{
     width: 87%;
     height: 58px;
@@ -53,71 +57,112 @@ button{
     cursor: pointer;
     
 }
+
 button:hover{
     box-shadow: -1px 2px 20px 5px rgba(255, 0, 0, 0.342);
 }
+
 button:active{
     box-shadow: none;
 }
+
 h1{
     font-size: 40px;
     margin-bottom: 23px;
 }
+
 p{
     margin-bottom: 15px;
     color: #ff5400;
 }
+
 .img-nav{
     position: relative;
-    width: 50%;
+    width: 50vw;
+    margin-top: 10px;
+    left: 40px;
     border-radius: 29%;
-    border: solid white;
+    border: 1px solid white;
+    box-shadow: 0 5px 15px black;
+
+
 }
+
 .produtos{
     position: relative;    
     width: 95vw;
-    height: 95vh;
-    
-    
+    height: 95vh; 
+    left: 31px;
     
 }
-ol{
-    opacity: 0;
-    transition: opacity 1s linear;    
-    margin-left: 7%;
+
+ul{
+  
+    /*transition: opacity 1s linear;*/
     background: white;
     position: absolute;
     width: 91%;
     height: 100vh;
     box-shadow: 0px -1px 13px 0px black;
+    z-index: 4;
+    
 }
-.mostrar-menu{    
+.icon{
+    opacity: 0;
+    width: 50px;
+    position: absolute;
+    left: 500px;
+    box-shadow: 15px 15px 15px black;
+}
+.icon:active{
+    box-shadow: 15px 15px 15px white
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+li{
+    margin-top: 20px;
+    position: relative;
+    left: 30px;
+    
+}
+
+.mostrar-menu,.icon{    
     opacity: 1;
     z-index: 4;   /* para posicionar o elemento a frente, quanto maior o numero mais a frente ele ficara*/
  
  }
-li{
+ 
+
+.caldo{
+    
     color: black;
     background-color: rgb(224 212 212);
     box-shadow: 0 3px 16px;
     cursor: pointer;
-    top: 18px;
-    position: relative;
-    width: 90%;
-    left: 17px;
-    margin-bottom: 7px;
-    list-style: none;
+    width: 90%;           
+    height: 643px;
+    margin: 10px auto;
 }
-li:hover{
-    border: solid 2px rgb(243, 242, 242,.5);
-    box-shadow: -1px 2px 20px 5px black;
+
+.ingredientes{
+    margin-top: 50px;
 }
-li:active{
-    background-color: rgb(182, 66, 66 ) ;
-}
+
 .card{
     height: 15px;
 }
+
 .logo{
     bottom: 93px;
     width: 184px;
@@ -141,16 +186,14 @@ li:active{
         
     }
     li{
-        width: 63%;
-        justify-items: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        width: 63%;        
+        display: grid;        
         top: 6%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 20px auto;
     }
     
 }
+
 @media screen and (min-width: 900px){
     .section{
     bottom: 632px;
@@ -158,3 +201,23 @@ li:active{
     }
 }
 
+
+select{
+    position: relative;
+    margin-top: 27px;
+    width: 90%;
+    height: 5%;
+    appearance: none;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px black;
+    border: none;
+    background: rgb(231, 78, 78);
+    color: white;
+    left: 20px
+}
+
+select:active{
+    background-color: #ff5400;
+}
