@@ -1,20 +1,21 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Rubik Glitch', cursive;
 
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 
-.principal{
-    position:fixed;
+.principal {
+    position: fixed;
     width: 100vw;
     height: 100vh;
-    
+
 }
 
-.section{    
+.section {
     width: 80vw;
     height: 60vh;
     position: relative;
@@ -25,27 +26,27 @@
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0px 1px 20px 5px black;
-    bottom: 549px;   
+    bottom: 686px;
 }
 
-.chame{    
+.chame {
     position: relative;
     width: 37px;
     margin-left: 15px;
     margin-top: 30px;
 }
 
-.chame:hover{
+.chame:hover {
     width: 45px;
     transition: 1s;
 }
 
-.escrições{
-    position: relative;   
+.escrições {
+    position: relative;
     top: 61px;
 }
 
-button{
+button {
     width: 87%;
     height: 58px;
     border: none;
@@ -55,32 +56,32 @@ button{
     color: white;
     box-shadow: -1px 2px 20px 5px black;
     cursor: pointer;
-    
+
 }
 
-button:hover{
+button:hover {
     box-shadow: -1px 2px 20px 5px rgba(255, 0, 0, 0.342);
 }
 
-button:active{
+button:active {
     box-shadow: none;
 }
 
-h1{
+h1 {
     font-size: 40px;
     margin-bottom: 23px;
 }
 
-p{
+p {
     margin-bottom: 15px;
     color: #ff5400;
 }
 
-.img-nav{
+.img-nav {
     position: relative;
     width: 50vw;
     margin-top: 10px;
-    left: 40px;
+    left: 33px;
     border-radius: 29%;
     border: 1px solid white;
     box-shadow: 0 5px 15px black;
@@ -88,82 +89,83 @@ p{
 
 }
 
-.produtos{
-    position: relative;    
-    width: 95vw;
-    height: 95vh; 
-    left: 31px;
+.produtos {
+    position: relative;
+    width: 87vw;
+    height: 95vh;
+    margin: auto;
+    
+
+}
+
+ul {
+    opacity: 0;
+    transition: opacity 1s linear;
+    background: white;
+    position: absolute;
+    width: 88%;
+    height: 79vh;
+    box-shadow: 0px -1px 13px 0px black;
     
 }
 
-ul{
-  
-    /*transition: opacity 1s linear;*/
-    background: white;
-    position: absolute;
-    width: 91%;
-    height: 100vh;
-    box-shadow: 0px -1px 13px 0px black;
+.mostrar-menu{
+    opacity: 1;
     z-index: 4;
-    
+
 }
-.icon{
+
+.icon {
     opacity: 0;
     width: 50px;
     position: absolute;
     left: 500px;
     box-shadow: 15px 15px 15px black;
 }
-.icon:active{
+
+.icon:active {
     box-shadow: 15px 15px 15px white
 }
 
-h2{
+h2 {
     text-align: center;
     margin-top: 10px;
-    font-size: 50px;
+    font-size: 29px;
 }
 
-h3{
+h3 {
     text-align: center;
     font-size: 25px;
     margin-bottom: 25px;
 }
 
-li{
-    margin-top: 20px;
+li {
+    margin-top: 9px;
     position: relative;
     left: 30px;
-    
+
 }
 
-.mostrar-menu,.icon{    
-    opacity: 1;
-    z-index: 4;   /* para posicionar o elemento a frente, quanto maior o numero mais a frente ele ficara*/
- 
- }
- 
+.caldo {
 
-.caldo{
-    
     color: black;
     background-color: rgb(224 212 212);
     box-shadow: 0 3px 16px;
     cursor: pointer;
-    width: 90%;           
-    height: 643px;
+    width: 90%;
+    height: 466px;
     margin: 10px auto;
 }
 
-.ingredientes{
-    margin-top: 50px;
+.ingredientes {
+    margin-top: 23px;
 }
 
-.card{
+.card {
     height: 15px;
 }
 
-.logo{
+.logo {
     bottom: 93px;
     width: 184px;
     border-radius: 47px;
@@ -174,35 +176,37 @@ li{
 
 
 @media screen and (min-width: 450px) {
-    .section{
-        height: 79vh;        
+    .section {
+        height: 79vh;
         margin-top: 10%;
     }
-    ol{
+
+    ol {
         width: 70%;
         margin-left: 18%;
         height: 75vh;
         top: 120px;
-        
+
     }
-    li{
-        width: 63%;        
-        display: grid;        
+
+    li {
+        width: 63%;
+        display: grid;
         top: 6%;
         margin: 20px auto;
     }
-    
+
 }
 
-@media screen and (min-width: 900px){
-    .section{
-    bottom: 632px;
-    margin-top: 10%;
+@media screen and (min-width: 900px) {
+    .section {
+        bottom: 632px;
+        margin-top: 10%;
     }
 }
 
 
-select{
+select {
     position: relative;
     margin-top: 27px;
     width: 90%;
@@ -218,6 +222,10 @@ select{
     left: 20px
 }
 
-select:active{
+select:active {
     background-color: #ff5400;
+}
+
+.menu{
+    width: 100vw;
 }

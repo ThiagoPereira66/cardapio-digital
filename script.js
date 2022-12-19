@@ -32,10 +32,10 @@ const mudarCard = trocaCrd = () =>{
     }
 
 }
-const fechar = fecharMenu = () =>{
+/*const fechar = fecharMenu = () =>{
     botaoFechar.className = "fecharMenu"
 }
-
+*/
 //botaoFechar.addEventListener('click', fechar )
 
 selecionar.addEventListener('change', mudarCard)
